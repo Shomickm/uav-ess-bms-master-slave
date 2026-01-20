@@ -53,3 +53,124 @@ dkms.conf
 
 # debug information files
 *.dwo
+# =========================
+# OS / Editor junk
+# =========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.swp
+*.swo
+*.bak
+*.tmp
+
+.vscode/
+.idea/
+*.code-workspace
+
+# =========================
+# Build artifacts (C / Embedded)
+# =========================
+build/
+out/
+dist/
+
+*.o
+*.a
+*.so
+*.d
+*.elf
+*.map
+*.hex
+*.bin
+*.lst
+
+# CMake / Make
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile.user
+
+# =========================
+# Debug / flashing outputs
+# =========================
+openocd.log
+gdb.log
+*.svd
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+
+# =========================
+# Test & runtime logs
+# =========================
+logs/
+log/
+test_logs/
+*.log
+*.csv.tmp
+
+# =========================
+# Generated plots / reports
+# =========================
+plots/
+reports/generated/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# (EXCEPTION: tracked diagrams/docs should be added explicitly)
+
+# =========================
+# Data / captures
+# =========================
+captures/
+dumps/
+*.pcap
+
+# =========================
+# Secrets / local config
+# =========================
+.env
+.env.*
+secrets/
+credentials/
+
+# =========================
+# GitHub Actions artifacts
+# =========================
+.artifacts/
+.cache/
+
+# =========================
+# Vendor / third-party blobs
+# =========================
+firmware/third_party/**
+!firmware/third_party/README.md
+
+# =========================
+# Temporary simulation outputs
+# =========================
+sims/output/
+sims/tmp/
+
+# =========================
+# Backup files
+# =========================
+*~
+
